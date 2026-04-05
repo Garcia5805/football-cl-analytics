@@ -13,10 +13,7 @@ if __name__ == "__main__":
     df = load_raw_data("UEFA.csv")
     clubs = load_raw_data("uefacompetitionclubs.csv", sep=";")
     games = load_raw_data("uefacompetitionresults.csv", sep=";")
-    
-    print(df.head())
-    print(clubs.head())
-    print(games.head())
+
     
 
     
