@@ -7,3 +7,9 @@
 - Unfortunately since I am a student I won't be able to work on this as much as I would want to.
 - I will continue to update this soon with more information. 
  
+ ## Future features I want to add 
+
+- Create a method that gets the matches of a specific year/season
+- One of my csv contains lon and lat and I want to see what I can do with that 
+    - One thing I can do is check the distance teams travelled and if that affected anything?
+    - 

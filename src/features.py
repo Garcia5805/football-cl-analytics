@@ -29,3 +29,9 @@ def format_date(df: pd.DataFrame) -> pd.DataFrame:
 
     df['Date'] = Month.astype(str) + '/' + Day.astype(str) + '/' + Year.astype(str)
     return df
+
+#Change round format ex: turn 1/4 final into Quarter Final. 1/2 Final into Semi-Final
+def format_round(df: pd.DataFrame) -> pd.DataFrame:
+        df = df.copy()
+        df.loc(df['Round'== '1/2 Final', 'Round']) == 'Semi-Final'
+        return df 
